@@ -1,0 +1,20 @@
+.sec-bk-color {
+    background-color: #081c24;
+    border-color:#081c24;
+}
+
+.pri-bk-color {
+    background-color: #01d277;
+    border-color: #01d277;
+}
+.sec-color {
+    color: #081c24;
+}
+
+.pri-color {
+    color: #01d277;
+}
+
+.bg-skew-light:before {
+    background-color: rgba(0, 255, 145, 0.63);
+}
