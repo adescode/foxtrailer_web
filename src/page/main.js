@@ -209,19 +209,19 @@ const Main = () => {
                   <cite class='small text-uppercase'>prototypes club</cite>
                 </blockquote>
               </div>
-              {/* <div class='col-md'>
+              <div class='col-md'>
                 <blockquote class='bg-white rounded shadow mb-4 p-4 p-lg-5 text-center'>
                   <img
                     class='avatar avatar-md mb-4'
-                    src='img/dallas-kwok.jpg'
-                    alt='Dallas Kwok'
+                    src='https://lh3.googleusercontent.com/a-/AAuE7mBBiHplEnGExL31RVTkYSSokdOAa7dI1JihW3xe=w96-h96-n-rw'
+                    alt='Hazken Graphics'
                   />
                   <p class='text-secondary'>
-                    Boost theme impressed me on multiple levels.
+                  Great and amazing design, easy to sellect a movie, watch and share, i really love this app.
                   </p>
-                  <cite class='small text-uppercase'>Dallas Kwok</cite>
+                  <cite class='small text-uppercase'>Hazken Graphics</cite>
                 </blockquote>
-              </div> */}
+              </div>
             </div>
           </section>
         </div>
