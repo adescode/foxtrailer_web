@@ -251,7 +251,7 @@ const Main = () => {
           <hr class='m-0' role='presentation' />
 
           <div class='d-flex flex-column flex-sm-row justify-content-sm-between align-items-center mt-4'>
-            <p class='small text-muted'>© foxtrailer 2019</p>
+            <p class='small text-muted'>© foxtrailer 2020</p>
             <ul class='list-inline'>
               <li class='list-inline-item'>
                 <a
