@@ -17,7 +17,7 @@
     "eject": "react-scripts eject",
     "serve": "firebase serve --only functions",
     "shell": "firebase functions:shell",
-    "deploy": "firebase deploy --only functions",
+    "deploy": "react-scripts build && firebase deploy",
     "logs": "firebase functions:log"
   },
   "eslintConfig": {
