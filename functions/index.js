@@ -10,6 +10,7 @@ app.use(express.static(__dirname + '/../build'));
 app.get('/details/*', (req, res) =>
   res.redirect('https://play.google.com/store/apps/details?id=com.foxtrailer')
 );
+app.post('/test', (req, res) => res.send({ test: 'Hello World!' }));
 
 app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname + '/../build/index.html'));
