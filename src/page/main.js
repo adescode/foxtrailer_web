@@ -217,7 +217,7 @@ const Main = () => {
                     alt='Hazken Graphics'
                   />
                   <p class='text-secondary'>
-                  Great and amazing design, easy to sellect a movie, watch and share, i really love this app.
+                  Great and amazing design, easy to select a movie, watch and share, i really love this app.
                   </p>
                   <cite class='small text-uppercase'>Hazken Graphics</cite>
                 </blockquote>
