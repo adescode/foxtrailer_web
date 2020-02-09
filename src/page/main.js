@@ -66,7 +66,7 @@ const Main = () => {
             </div>
             <div class='col-lg-6 col-xl-7'>
               <img
-                src='https://boost.11bits.es/img/holding-phone.svg'
+                src='https://firebasestorage.googleapis.com/v0/b/fox-trailer.appspot.com/o/FCMImages%2Fdeadpool.png?alt=media&token=0f1cf43b-8008-4f4e-9cc6-4f31d9e07585'
                 class='d-none d-lg-block img-fluid'
                 alt=''
               />
