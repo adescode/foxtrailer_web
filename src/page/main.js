@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.css';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -13,9 +14,9 @@ const Main = () => {
             class='navbar navbar-expand-lg navbar-light py-3'
             aria-label='Main navigation'
           >
-            <a class='navbar-brand text-dark' href='index.html'>
+            <Link class='navbar-brand text-dark' to='/'>
               <img src='assets/logo.png' alt='foxtrailer logo' />
-            </a>
+            </Link>
             <a
               href='https://github.com/adescode/foxtrailer'
               class='navbar-toggler collapsed'
@@ -47,16 +48,16 @@ const Main = () => {
                 {/* also get updates on your favorites movie or
                 tv show. */}
               </p>
-              {/* <a
+              <a
                 class='btn btn-pill btn-primary btn-block d-md-inline-block w-auto mx-1 ml-sm-0 my-3'
                 href='#'
                 role='button'
               >
                 <i class='fab fa-apple fa-lg mr-1' aria-hidden='true'></i>
                 <span>App Store</span>
-              </a> */}
+              </a>
               <a
-                class='btn btn-pill btn-primary btn-block d-md-inline-block w-auto mx-1 ml-sm-0 my-3 sec-bk-color pri-color'
+                class='btn btn-pill btn-block d-md-inline-block w-auto mx-1 ml-sm-0 my-3 btn-outline-success pri-color'
                 href='https://play.google.com/store/apps/details?id=com.foxtrailer'
                 role='button'
               >
@@ -217,7 +218,8 @@ const Main = () => {
                     alt='Hazken Graphics'
                   />
                   <p class='text-secondary'>
-                  Great and amazing design, easy to select a movie, watch and share, i really love this app.
+                    Great and amazing design, easy to select a movie, watch and
+                    share, i really love this app.
                   </p>
                   <cite class='small text-uppercase'>Hazken Graphics</cite>
                 </blockquote>
@@ -251,7 +253,17 @@ const Main = () => {
           <hr class='m-0' role='presentation' />
 
           <div class='d-flex flex-column flex-sm-row justify-content-sm-between align-items-center mt-4'>
-            <p class='small text-muted'>© foxtrailer 2020</p>
+            <p class='small text-muted'>
+              Copyright © 2020 foxtrailer by{' '}
+              <a target='_blank' rel="noopener"
+                href='https://portfolio.adescode.com'
+              >
+                Adescode
+              </a>
+            </p>
+            <p class='small text-muted'>
+              <Link to='/privacy'>Privacy Policy</Link>
+            </p>
             <ul class='list-inline'>
               <li class='list-inline-item'>
                 <a

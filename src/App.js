@@ -1,19 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Main from './page/main'
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Main from './page/main';
+import PrivacyPolicy from './page/privacy_policy';
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <div>
-    //       <div style={{}}></div>
-    //       <div></div>
-    //     </div>
-    //   </header>
-    // </div>
-    <Main />
+    <Router>
+      <Switch>
+        <Route path='/privacy'>
+          <PrivacyPolicy />
+        </Route>
+        <Route path='/'>
+          <Main />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
