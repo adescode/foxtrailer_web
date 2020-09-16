@@ -50,7 +50,7 @@ const Main = () => {
               </p>
               <a
                 class='btn btn-pill btn-primary btn-block d-md-inline-block w-auto mx-1 ml-sm-0 my-3'
-                href='#'
+                href='https://apps.apple.com/us/app/id1530745860'
                 role='button'
               >
                 <i class='fab fa-apple fa-lg mr-1' aria-hidden='true'></i>
@@ -255,7 +255,9 @@ const Main = () => {
           <div class='d-flex flex-column flex-sm-row justify-content-sm-between align-items-center mt-4'>
             <p class='small text-muted'>
               Copyright © 2020 foxtrailer by{' '}
-              <a target='_blank' rel="noopener"
+              <a
+                target='_blank'
+                rel='noopener'
                 href='https://portfolio.adescode.com'
               >
                 Adescode
